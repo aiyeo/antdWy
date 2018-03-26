@@ -1,0 +1,138 @@
+
+.addButton {
+    margin-bottom: 30px;
+}
+.headers{
+	border-bottom:1px solid #ddd;
+	padding-bottom: 10px;
+}
+.headers span.spanButtons button{
+	margin-right: 10px;
+}
+.antbtn{
+	    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 500;
+    text-align: center;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    line-height: 1.5;
+    padding: 0 15px;
+    font-size: 12px;
+    border-radius: 4px;
+    height: 28px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    position: relative;
+    color: rgba(0, 0, 0, 0.65);
+    background-color: #fff;
+    border-color: #d9d9d9;
+}
+.antbtn:hover, .antbtn:focus {
+    color: #108ee9;
+    background-color: #fff;
+    border-color: #108ee9;
+}
+.antbtn:hover, .antbtn:focus, .antbtn:active, .antbtn.active {
+    background: #fff;
+}
+.antbtn:not([disabled]):hover {
+    text-decoration: none;
+}
+.bluecolor{
+    color: #108EE9;
+}
+.warnningcolor{
+    color:#FFBF00;
+}
+.greencolor{
+    color: #77AC0B;
+}
+.redcolor{
+    color:red;
+}
+
+.normal {
+}
+.headers{
+	border-bottom:1px solid #ddd;
+	padding-bottom: 10px;
+}
+.headers span.spanButtons button{
+	margin-right: 5px;
+}
+.addButton {
+    margin-bottom: 30px;
+    margin-top:30px;
+}
+.assignButton{
+	margin-left: 5px;
+}
+.tableSearchDiv{
+	padding-bottom: 20px;
+}
+.tableSearchDiv input{
+	width:330px;
+}
+.tableSearchBtn{
+	margin-left: 20px;
+}
+.icon{
+	font-size: 16px;
+	margin-right: 10px;
+}
+.goBack{
+	position: absolute;
+	right: 30px;
+	z-index: 100;
+}
+.btnDiv{
+	float: right;
+}
+.btnDiv button{
+	margin: 0 5px;
+}
+.rejectReason{
+	text-align: center;
+	font-size: 16px;
+	color: #e74c3c;
+}
+.Timeline{
+	padding-left: 30px;
+}
+.contentBox{
+  width: 97%;
+  position: absolute;
+  min-width: 1290px;
+}
+
+.buttonTop{
+  position: absolute;
+  top:-50px;
+  right: 100px;
+}
+.infoBar{
+  position: relative;
+  margin-top: 30px;
+  height: 20px;
+  overflow: hidden;
+}
+.infoText{
+  font-size: 16px;
+  padding-left: 20px;
+}
+.leftBluebox{
+  width:10px;
+  left: 0;
+  height: 14px;
+  top:6px;
+  position: absolute;
+  background-color:#118EEA;
+}

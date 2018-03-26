@@ -1,0 +1,34 @@
+.editable-cell {
+  position: relative;
+}
+.editable-cell-text-wrapper {
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.center{
+	text-align: center;
+}
+.editableNumb{
+  width: 100%!important;
+}
+.headerstyle thead > tr > th{
+  background-color: #EBF6FD!important;
+}
+
+.headerstyle thead > tr > th, .headerstyle > tr > td {
+    border-right: 1px solid #2EA6E0!important;
+    color:#000!important;
+}
+.headerstyle tr > th {
+    border-bottom: 1px solid #2EA6E0!important;
+    color:#000!important;
+    border-top:  1px solid #2EA6E0!important;
+}
+.headerstyle thead > tr > th:first-child {
+    text-align: left !important;
+    border-left: 1px solid #2EA6E0!important;
+}
+/*.headerstyle thead >tr > th{
+  background-color: #ddd;
+}*/

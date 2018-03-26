@@ -1,0 +1,134 @@
+@maincolor:#2EA7E0;
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+  button {
+    margin-left: 20px;
+  }
+}
+
+.formWrapper {
+  :global {
+    .ant-form-item {
+      label {
+        font-size: 14px;
+      }
+    }
+  }
+}
+.formrow{
+  position: inherit!important;
+  margin-bottom: 20px;
+}
+.columtag{
+  height: 45px;
+    line-height: 45px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+.goodstag{
+  height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+.tagName::before{
+  content: '';
+  display: inline-block;
+  width:10px;
+  height: 14px;
+  background-color:#118EEA;
+  margin-right: 10px;
+}
+.avatar-uploader,
+.avatar-uploader-trigger,
+.avatar {
+  width: 150px;
+  height: 150px;
+}
+.avatar-uploader {
+  display: block;
+  border: 1px dashed #d9d9d9;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.avatar-uploader-trigger {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 28px;
+  color: #999;
+}
+.bigline{
+  display: inline-block;
+  width:100%;
+  height:14px;
+  background-color: @maincolor;
+  margin-top: 5px;
+}
+.smallline{
+  display: inline-block;
+  width:100%;
+  height:2px;
+  background-color: @maincolor;
+  margin-top: 16px;
+}
+.leftarque,.leftbluebig,.leftblue{
+  font-size: 16px;
+  position: relative;
+  padding-left: 20px;
+}
+.bluesmallbox1{
+  width:10px;
+  left: 0;
+  top:6px;
+  height: 14px;
+  position: absolute;
+  background-color:@maincolor;
+}
+.bluesmallbox{
+  width:10px;
+  left: 0;
+  top:6px;
+  height: 14px;
+  position: absolute;
+  background-color:#118EEA;
+}
+.blueline{
+  display: inline-block;
+  width:100%;
+  height:2px;
+  background-color: #118EEA;
+  margin-top: 16px;
+}
+.bigblueline{
+  display: inline-block;
+  width:100%;
+  height:14px;
+  background-color: #118EEA;
+  margin-top: 5px;
+}
+
+.headerstyle thead > tr > th{
+  background-color: #EBF6FD!important;
+}
+
+.headerstyle thead > tr > th, .headerstyle > tr > td {
+    border-right: 1px solid #2EA6E0!important;
+    color:#000!important;
+}
+.headerstyle tr > th {
+    border-bottom: 1px solid #2EA6E0!important;
+    color:#000!important;
+    border-top:  1px solid #2EA6E0!important;
+}
+.headerstyle thead > tr > th:first-child {
+    text-align: left !important;
+    border-left: 1px solid #2EA6E0!important;
+}
+.checkMoreDetail{
+  line-height: 26px;
+  color: #2EA6E0;
+  &:hover{
+    cursor: pointer;
+  }
+}
+

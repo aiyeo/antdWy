@@ -1,0 +1,23 @@
+.loadingBtn {
+  margin-left: 10px;
+}
+.hide{
+	display: none;
+}
+.show{
+	display: inline-block;
+}
+.searchInput{
+	width: 200px;
+	margin: 0 10px;
+}
+.ant-table-tbody > tr > td{
+	text-align: left !important;
+}
+.selects{
+	margin-bottom: 10px;
+}
+.selectsRight{
+	margin-bottom: 10px;
+	margin-left: 10px;
+}

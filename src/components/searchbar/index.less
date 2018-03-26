@@ -1,0 +1,120 @@
+.dwd-btn1(@color) {
+  width: 68px;
+  height: 30px;
+  border-radius: 2px;
+  border-color: @color;
+  background-color: @color;
+  color: #fff;
+  font-size: 12px;
+	line-height: 1.0;
+	text-align: center;
+  &:hover {
+    width: 68px;
+    height: 30px;
+    border-radius: 2px;
+    border-color: @color;
+    background-color: @color;
+    opacity: .3
+  }
+}
+
+.dwd-btn2(@color) {
+  width: 68px;
+	height: 30px;
+	border-radius: 2px;
+	border: solid 1px @color;
+  font-size: 12px;
+	line-height: 1.0;
+	text-align: center;
+	color: #fe751a;
+  &:hover {
+    width: 68px;
+    height: 30px;
+    border-radius: 2px;
+    border: solid 1px @color;
+    font-size: 12px;
+	  line-height: 1.0;
+	  text-align: center;
+	  color: #fe751a;
+    opacity: .3
+  }
+}
+.searchbar {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .field {
+        height: 47px;
+        align-items: center;
+        .input {
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            .title {
+                text-align: right;
+                font-size: 12px;
+                margin-right: 5px;
+            }
+            .input {
+                height: 30px;
+            }
+        }
+        .warning {
+            color: red;
+            text-align: center;
+            margin-left: 105px;
+        }
+    }
+    .buttonGroup {
+        align-self: center;
+        margin-left: 20px;
+        height: 47px;
+        button {
+            margin-right: 5px;
+            height: 30px;
+            border: none;
+            padding: 0;
+        }
+        .reset {
+          .dwd-btn2(#fe751a)
+        }
+        .search {
+          .dwd-btn1(#fe751a)
+        }
+    }
+}
+.hide{
+  display:none!important;
+}
+.visible{
+  display: block;
+}
+.searchbox,.visibleBox,.hideBox{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    transition:all 1s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+.moreselect{
+  width:80px;
+  border:1px solid #108EE9;
+  border-radius: 5px;
+}
+.searchbtn{
+  width:68px;
+}
+.colum:last-child{
+  display: none;
+}
+.hideBox{
+  transition:all .5s cubic-bezier(0.000, 0.105, 0.035, 1.570);
+}
+.nopadding{
+  padding:0;
+  background-color: #fff;
+}

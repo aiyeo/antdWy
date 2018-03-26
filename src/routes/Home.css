@@ -1,0 +1,36 @@
+
+.normal {
+}
+.messagePanel{
+    margin-bottom: 20px !important;
+    height: 110px;
+}
+.panelCol{
+    height: 100%
+}
+.tabheader{
+    color:#108EE9;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 16px;
+    margin-left:5px;
+}
+:global(.ant-alert-warning){
+	background: #008cee !important;
+	color: #fcf600;
+}
+:global(.ant-alert-message){
+	color: #fcf600 !important;
+}
+:global(.ant-alert-with-description .ant-alert-icon) {
+    position: absolute;
+    top: 16px;
+    left: 40px;
+    font-size: 50px;
+}
+:global(.ant-alert-warning .ant-alert-icon) {
+    color: #fcf600;
+}
+:global(.ant-alert-with-description){
+	padding: 16px 16px 16px 120px;
+}

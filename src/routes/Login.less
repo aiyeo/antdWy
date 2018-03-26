@@ -1,0 +1,140 @@
+@darkblue:#0362af;
+@lightblue:#2ea7e0;
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.loginpagewrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: "Microsoft YaHei", "SimHei";
+  z-index: 999;
+  background: url("../../public/images/login-background.jpg") fixed center center no-repeat;
+  background-size: cover;
+  //头部图标
+  .header{
+    height: 100px;
+    background: fade(white,50%);
+    .leftLogo{
+      float: left;
+      width: 210px;
+      height: 100px;
+      background: url("../../public/images/login-sprit.png") transparent -32px 0px no-repeat;
+      .blueBar{
+        width: 210px;
+        height: 12px;
+        background: @darkblue;
+      }
+    }
+    .rightLogo{
+      float: right;
+      width: 500px;
+      height: 100px;
+      background: url("../../public/images/login-sprit.png") transparent -308px -6px no-repeat;
+    }
+  }
+  //登录框
+  .form {
+    position: absolute;
+    top: 50%;
+    right: 20%;
+    margin: -200px 0 0 -230px;
+    width: 320px;
+    height: 400px;
+    padding: 40px 40px 20px 40px;
+    box-shadow: 0 0 100px rgba(0,0,0,.08);
+    background-color: fade(white,90%);
+    z-index: 999;
+    color: @lightblue;
+    .QRpic{
+      width: 85px;
+      height: 85px;
+      position: absolute;
+      top: 0;
+      right: 0;
+      background: url("../../public/images/login-sprit.png") transparent -834px -17px no-repeat;
+    }
+    .formText{
+      text-align: center;
+      p:first-child{
+        font-size: 22px;
+        letter-spacing: 12px;
+      }
+      p:nth-child(2){
+        font-size: 14px;
+        font-weight: bold;
+        margin: 5px auto 30px auto;
+      }
+    }
+    .loginBtn {
+      margin-top: 10px;
+      width: 100%;
+      height: 35px;
+      font-size: 18px;
+    }
+    .loginInput{
+      height:35px;
+      font-size: 14px;
+    }
+    input{
+      background: transparent;
+      padding-left: 50px !important;
+    }
+    .Icons{
+      font-size: 22px;
+      padding: 0px 5px;
+    }
+    .checkcode{
+      display: inline-block;
+      height: 30px;
+      width: 80px;
+      text-align: center;
+      line-height: 30px;
+      margin-left: 10px;
+      margin-top: 2px;
+      cursor: pointer;
+      background: @lightblue;
+      color: #fff;
+      font-size: 18px;
+      letter-spacing: 2px;
+    }
+    .forgetpass{
+      margin-top: 10px;
+      text-align: center;
+    }
+  }
+  //页脚
+  .foot{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    font-size: 14px;
+    width: 100%;
+    padding-bottom: 30px;
+    color: #fff;
+    a{
+      color: #fff;
+      margin: 0 15px;
+    }
+    p{
+      font-weight: bold;
+      font-size: 12px;
+      margin-top: 20px;
+    }
+  }
+}
+
+.loadingcode{
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  text-align: center;
+  margin-top: 2px;
+  width: 45px;
+  margin-left: 20px;
+  cursor: pointer;
+  background-color: #108ee9;
+  color: #fff;
+}
